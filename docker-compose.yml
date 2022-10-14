@@ -1,0 +1,18 @@
+version: '3.4'
+services:
+  gandalf:
+    build: ./services/Gandalf
+    container_name: gandalf
+    hostname: gandalf
+    environment:
+      PORT: 7510
+    ports:
+      - '7510:7510'
+  gimli:
+    build: ./services/Gimli
+    container_name: gimli
+    hostname: gimli
+    environment:
+      PORT: 8510
+    ports:
+      - '8510:8510'

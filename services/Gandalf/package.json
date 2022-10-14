@@ -1,0 +1,25 @@
+{
+  "name": "gandalf",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app",
+    "up": "nodemon"
+  },
+  "author": {
+    "name": "Stefan Aichholzer",
+    "email": "theaichholzer@gmail.com",
+    "url": "https://github.com/aichholzer"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "rayo": "^1.3.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
