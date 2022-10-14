@@ -4,6 +4,12 @@ There are two services; `Gandalf` and `Gimli`.<br />
 They both expose a streamable API and while `Gimli` produces data, `Gandalf` consumes it.
 
 
+### Requirements
+
+* Docker
+* A terminal (and basic usage knowlegde)
+
+
 ### Take them for a spin
 
 ```bash
